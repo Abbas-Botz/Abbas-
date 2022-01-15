@@ -1107,7 +1107,7 @@ audio20 = fs.readFileSync('./X3/nayla20.m4a')
 			if (isLimit(sender)) return
             await limitAdd(sender)
             if (isBanned) return reply("MAAF ANDA TELAH DI BANNED") 			
-		    if (!isPrem) return reply(only.premium)	
+		    	
 		    if (args.length < 1) return reply("Masukkan url youtube")
 		    nyz1 = await fetchJson(`${api}/downloader/ytmp4?url=${aq}`)
 		    nyz2 = await getBuffer(nyz1.result.url)
@@ -1123,7 +1123,7 @@ audio20 = fs.readFileSync('./X3/nayla20.m4a')
 			if (isLimit(sender)) return
             await limitAdd(sender)
             if (isBanned) return reply("MAAF ANDA TELAH DI BANNED") 			
-		    if (!isPrem) return reply(only.premium)
+		    
 		    if (args.length < 1) return reply("Masukkan url youtube")
 		    nyz1 = await fetchJson(`${api}/downloader/ytmp3?url=${aq}`)
 		    nyz2 = await getBuffer(nyz1.result.url)
@@ -1139,7 +1139,7 @@ audio20 = fs.readFileSync('./X3/nayla20.m4a')
 			if (isLimit(sender)) return
             await limitAdd(sender)
             if (isBanned) return reply("MAAF ANDA TELAH DI BANNED") 			
-		    if (!isPrem) return reply(only.premium)		    
+		    		    
 		    if (args.length < 1) return reply("Masukkan url tiktok")
 		    nyz1 = await fetchJson(`${api}/downloader/tiktokmp4?url=${aq}`)
 		    nyz2 = await getBuffer(nyz1.result.url)
@@ -1150,14 +1150,14 @@ audio20 = fs.readFileSync('./X3/nayla20.m4a')
 			if (isLimit(sender)) return
             await limitAdd(sender)
             if (isBanned) return reply("MAAF ANDA TELAH DI BANNED") 			
-		    if (!isPrem) return reply(only.premium)
+		    
 		    reply("MAAF FITUR INI SEDANG PERBAIKAN")
 		    break
 		    case 'tiktokmp3':
 			if (isLimit(sender)) return
             await limitAdd(sender)
             if (isBanned) return reply("MAAF ANDA TELAH DI BANNED") 			
-		    if (!isPrem) return reply(only.premium)		    
+		    		    
 		    if (args.length < 1) return reply("Masukkan url tiktok")
 		    nyz1 = await fetchJson(`${api}/downloader/tiktokmp3?url=${aq}`)
 		    nyz2 = await getBuffer(nyz1.result.url)
@@ -1790,7 +1790,7 @@ audio20 = fs.readFileSync('./X3/nayla20.m4a')
 			if (isLimit(sender)) return
             await limitAdd(sender)
             if (isBanned) return reply("MAAF ANDA TELAH DI BANNED")
-		    if (!isPrem) return reply(only.premium)
+		    
 			if (!isGroup) return reply(only.group())
 			if (nay.message.extendedTextMessage === undefined || nay.message.extendedTextMessage === null) return reply('Tag orang kak')
 			mentioned = nay.message.extendedTextMessage.contextInfo.mentionedJid				 
@@ -1800,7 +1800,7 @@ audio20 = fs.readFileSync('./X3/nayla20.m4a')
 			if (isLimit(sender)) return
             await limitAdd(sender)
             if (isBanned) return reply("MAAF ANDA TELAH DI BANNED")
-		    if (!isPrem) return reply(only.premium)
+		    
 			if (!isGroup) return reply(only.group())
 			if (nay.message.extendedTextMessage === undefined || nay.message.extendedTextMessage === null) return reply('Tag orang kak')
 			mentioned = nay.message.extendedTextMessage.contextInfo.mentionedJid				 
@@ -1810,7 +1810,7 @@ audio20 = fs.readFileSync('./X3/nayla20.m4a')
 			if (isLimit(sender)) return
             await limitAdd(sender)
             if (isBanned) return reply("MAAF ANDA TELAH DI BANNED")
-		    if (!isPrem) return reply(only.premium)
+		    
 			if (!isGroup) return reply(only.group())
 			if (nay.message.extendedTextMessage === undefined || nay.message.extendedTextMessage === null) return reply('Tag orang kak')
 			mentioned = nay.message.extendedTextMessage.contextInfo.mentionedJid				 
@@ -1820,7 +1820,7 @@ audio20 = fs.readFileSync('./X3/nayla20.m4a')
 			if (isLimit(sender)) return
             await limitAdd(sender)
             if (isBanned) return reply("MAAF ANDA TELAH DI BANNED")
-		    if (!isPrem) return reply(only.premium)
+		    
 			if (!isGroup) return reply(only.group())
 			if (nay.message.extendedTextMessage === undefined || nay.message.extendedTextMessage === null) return reply('Tag orang kak')
 			mentioned = nay.message.extendedTextMessage.contextInfo.mentionedJid				 
@@ -1830,7 +1830,7 @@ audio20 = fs.readFileSync('./X3/nayla20.m4a')
 			if (isLimit(sender)) return
             await limitAdd(sender)
             if (isBanned) return reply("MAAF ANDA TELAH DI BANNED")
-		    if (!isPrem) return reply(only.premium)
+		    
 			if (!isGroup) return reply(only.group())
 			if (nay.message.extendedTextMessage === undefined || nay.message.extendedTextMessage === null) return reply('Tag orang kak')
 			mentioned = nay.message.extendedTextMessage.contextInfo.mentionedJid				 
@@ -1840,7 +1840,7 @@ audio20 = fs.readFileSync('./X3/nayla20.m4a')
 			if (isLimit(sender)) return
             await limitAdd(sender)
             if (isBanned) return reply("MAAF ANDA TELAH DI BANNED")
-		    if (!isPrem) return reply(only.premium)
+		    
 			if (!isGroup) return reply(only.group())
 			if (nay.message.extendedTextMessage === undefined || nay.message.extendedTextMessage === null) return reply('Tag orang kak')
 			mentioned = nay.message.extendedTextMessage.contextInfo.mentionedJid				 
@@ -1850,7 +1850,7 @@ audio20 = fs.readFileSync('./X3/nayla20.m4a')
 			if (isLimit(sender)) return
             await limitAdd(sender)
             if (isBanned) return reply("MAAF ANDA TELAH DI BANNED")
-		    if (!isPrem) return reply(only.premium)
+		    
 			if (!isGroup) return reply(only.group())
 			if (nay.message.extendedTextMessage === undefined || nay.message.extendedTextMessage === null) return reply('Tag orang kak')
 			mentioned = nay.message.extendedTextMessage.contextInfo.mentionedJid				 
@@ -1860,7 +1860,7 @@ audio20 = fs.readFileSync('./X3/nayla20.m4a')
 			if (isLimit(sender)) return
             await limitAdd(sender)
             if (isBanned) return reply("MAAF ANDA TELAH DI BANNED")
-		    if (!isPrem) return reply(only.premium)
+		    
 			if (!isGroup) return reply(only.group())
 			if (nay.message.extendedTextMessage === undefined || nay.message.extendedTextMessage === null) return reply('Tag orang kak')
 			mentioned = nay.message.extendedTextMessage.contextInfo.mentionedJid				 
@@ -1870,7 +1870,7 @@ audio20 = fs.readFileSync('./X3/nayla20.m4a')
 			if (isLimit(sender)) return
             await limitAdd(sender)
             if (isBanned) return reply("MAAF ANDA TELAH DI BANNED")
-		    if (!isPrem) return reply(only.premium)
+		    
 			if (!isGroup) return reply(only.group())
 			if (nay.message.extendedTextMessage === undefined || nay.message.extendedTextMessage === null) return reply('Tag orang kak')
 			mentioned = nay.message.extendedTextMessage.contextInfo.mentionedJid				 
@@ -1880,7 +1880,7 @@ audio20 = fs.readFileSync('./X3/nayla20.m4a')
 			if (isLimit(sender)) return
             await limitAdd(sender)
             if (isBanned) return reply("MAAF ANDA TELAH DI BANNED")
-		    if (!isPrem) return reply(only.premium)
+		    
 			if (!isGroup) return reply(only.group())
 			if (nay.message.extendedTextMessage === undefined || nay.message.extendedTextMessage === null) return reply('Tag orang kak')
 			mentioned = nay.message.extendedTextMessage.contextInfo.mentionedJid				 
@@ -1890,7 +1890,7 @@ audio20 = fs.readFileSync('./X3/nayla20.m4a')
 			if (isLimit(sender)) return
             await limitAdd(sender)
             if (isBanned) return reply("MAAF ANDA TELAH DI BANNED")
-		    if (!isPrem) return reply(only.premium)
+		    
 			if (!isGroup) return reply(only.group())
 			if (nay.message.extendedTextMessage === undefined || nay.message.extendedTextMessage === null) return reply('Tag orang kak')
 			mentioned = nay.message.extendedTextMessage.contextInfo.mentionedJid				 
@@ -1900,7 +1900,7 @@ audio20 = fs.readFileSync('./X3/nayla20.m4a')
 			if (isLimit(sender)) return
             await limitAdd(sender)
             if (isBanned) return reply("MAAF ANDA TELAH DI BANNED")
-		    if (!isPrem) return reply(only.premium)
+		    
 			if (!isGroup) return reply(only.group())
 			if (nay.message.extendedTextMessage === undefined || nay.message.extendedTextMessage === null) return reply('Tag orang kak')
 			mentioned = nay.message.extendedTextMessage.contextInfo.mentionedJid				 
@@ -1910,7 +1910,7 @@ audio20 = fs.readFileSync('./X3/nayla20.m4a')
 			if (isLimit(sender)) return
             await limitAdd(sender)
             if (isBanned) return reply("MAAF ANDA TELAH DI BANNED")
-		    if (!isPrem) return reply(only.premium)
+		    
 			if (!isGroup) return reply(only.group())
 			if (nay.message.extendedTextMessage === undefined || nay.message.extendedTextMessage === null) return reply('Tag orang kak')
 			mentioned = nay.message.extendedTextMessage.contextInfo.mentionedJid				 
@@ -1920,7 +1920,7 @@ audio20 = fs.readFileSync('./X3/nayla20.m4a')
 			if (isLimit(sender)) return
             await limitAdd(sender)
             if (isBanned) return reply("MAAF ANDA TELAH DI BANNED")
-		    if (!isPrem) return reply(only.premium)
+		    
 			if (!isGroup) return reply(only.group())
 			if (nay.message.extendedTextMessage === undefined || nay.message.extendedTextMessage === null) return reply('Tag orang kak')
 			mentioned = nay.message.extendedTextMessage.contextInfo.mentionedJid				 
@@ -1930,7 +1930,7 @@ audio20 = fs.readFileSync('./X3/nayla20.m4a')
 			if (isLimit(sender)) return
             await limitAdd(sender)
             if (isBanned) return reply("MAAF ANDA TELAH DI BANNED")
-		    if (!isPrem) return reply(only.premium)
+		    
 			if (!isGroup) return reply(only.group())
 			if (nay.message.extendedTextMessage === undefined || nay.message.extendedTextMessage === null) return reply('Tag orang kak')
 			mentioned = nay.message.extendedTextMessage.contextInfo.mentionedJid				 
@@ -1940,7 +1940,7 @@ audio20 = fs.readFileSync('./X3/nayla20.m4a')
 			if (isLimit(sender)) return
             await limitAdd(sender)
             if (isBanned) return reply("MAAF ANDA TELAH DI BANNED")
-		    if (!isPrem) return reply(only.premium)
+		    
 			if (!isGroup) return reply(only.group())
 			if (nay.message.extendedTextMessage === undefined || nay.message.extendedTextMessage === null) return reply('Tag orang kak')
 			mentioned = nay.message.extendedTextMessage.contextInfo.mentionedJid				 
@@ -1950,7 +1950,7 @@ audio20 = fs.readFileSync('./X3/nayla20.m4a')
 			if (isLimit(sender)) return
             await limitAdd(sender)
             if (isBanned) return reply("MAAF ANDA TELAH DI BANNED")
-		    if (!isPrem) return reply(only.premium)
+		    
 			if (!isGroup) return reply(only.group())
 			if (nay.message.extendedTextMessage === undefined || nay.message.extendedTextMessage === null) return reply('Tag orang kak')
 			mentioned = nay.message.extendedTextMessage.contextInfo.mentionedJid				 
@@ -1960,7 +1960,7 @@ audio20 = fs.readFileSync('./X3/nayla20.m4a')
 			if (isLimit(sender)) return
             await limitAdd(sender)
             if (isBanned) return reply("MAAF ANDA TELAH DI BANNED")
-		    if (!isPrem) return reply(only.premium)
+		    
 			if (!isGroup) return reply(only.group())
 			if (nay.message.extendedTextMessage === undefined || nay.message.extendedTextMessage === null) return reply('Tag orang kak')
 			mentioned = nay.message.extendedTextMessage.contextInfo.mentionedJid				 
@@ -1970,7 +1970,7 @@ audio20 = fs.readFileSync('./X3/nayla20.m4a')
 			if (isLimit(sender)) return
             await limitAdd(sender)
             if (isBanned) return reply("MAAF ANDA TELAH DI BANNED")
-		    if (!isPrem) return reply(only.premium)
+		    
 			if (!isGroup) return reply(only.group())
 			if (nay.message.extendedTextMessage === undefined || nay.message.extendedTextMessage === null) return reply('Tag orang kak')
 			mentioned = nay.message.extendedTextMessage.contextInfo.mentionedJid				 
